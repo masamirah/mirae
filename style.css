@@ -31,3 +31,27 @@ body {
 body:hover {
   background-color: #e6f7ff;
 }
+
+nav {
+  background-color: #0044cc;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
