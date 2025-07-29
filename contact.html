@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Contact | MIRAE</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,26 @@
     </ul>
   </nav>
 
-  <h1>Contact</h1>
-  <p>You can reach us at mirae@example.com or on our socials!</p>
+  <h1>Contact Us</h1>
+  <p>If you'd like to get in touch, feel free to email us or fill out the form below.</p>
+
+  <!-- Simple Contact Info -->
+  <p><strong>Email:</strong> mirae@example.com</p>
+  <p><strong>Phone:</strong> +60 12-345 6789</p>
+
+  <!-- Optional: Contact Form (non-functional without backend) -->
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+
 </body>
 </html>
